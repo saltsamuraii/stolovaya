@@ -1,0 +1,32 @@
+.shopping-cart {
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.shopping-cart__suptext {
+  text-align: center;
+  color: #ff8c00;
+  font-size: 14px;
+}
+
+.shopping-cart__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  margin-left: 10px;
+}
+
+.shopping-cart__sum {
+  color: #787878;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.shopping-cart__num {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}

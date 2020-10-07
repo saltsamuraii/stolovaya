@@ -1,0 +1,56 @@
+@import "vars";
+
+body {
+  margin: 0;
+
+  background: #f4f2f2;
+  font-family: "Myriad Pro", Myriad;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+
+/* PageWrapper */
+@import "page";
+
+/* Swiper */
+@import "swiper";
+
+/* Block */
+@import "block/header";
+@import "block/container";
+@import "block/nav";
+@import "block/search";
+@import "block/form";
+@import "block/btn";
+@import "block/suppliers";
+@import "block/shopping-cart";
+@import "block/menu-catalog";
+@import "block/category";
+@import "block/partners";
+@import "block/section";
+@import "block/news";
+@import "block/recommend";
+@import "block/seo";
+@import "block/footer";
+@import "block/copyright";
+@import "block/burger";
+
+
+/* Contacts */
+@import "contacts/contacts";
+
+

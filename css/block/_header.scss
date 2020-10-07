@@ -1,0 +1,28 @@
+.header {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #00aa4b;
+
+  @media #{$notebook} {
+    display: none;
+  }
+}
+
+.header.fixed {
+  @media #{$notebook} {
+    width: 100%;
+    display: block;
+    position: fixed;
+
+    background-color: #f1f1f1;
+    box-shadow: 0 0 10px #000;
+
+    z-index: 1000;
+  }
+}
+
+.header__inner {
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+}

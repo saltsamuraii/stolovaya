@@ -1,0 +1,179 @@
+.recommend {
+  margin: 0;
+  padding: 0;
+}
+
+.recommend__header {
+  max-width: 662px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.recommend__maintitle {
+  margin-bottom: 28px;
+
+  font-size: 40px;
+  color: #000;
+}
+
+.recommend__subtitle {
+  font-size: 16px;
+  color: #787878;
+}
+
+.recommend__inner {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+
+  @media #{$notebook} {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @media #{$mobile} {
+    margin-top: 30px;
+  }
+}
+
+.recommend-left {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 13px;
+
+  @media #{$notebook} {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.recommend-left__item {
+  width: 100%;
+  max-width: 783px;
+  height: 745px;
+
+  background: #fff;
+  overflow: hidden;
+
+  @media #{$notebook} {
+    max-width: 90%;
+    height: 419px;
+
+    margin: 5px auto;
+  }
+}
+
+.recommend-left__content {
+  padding: 40px 60px;
+}
+
+.recommend__mark {
+  margin-bottom: 12px;
+
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000;
+
+  &--white {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  @media #{$mobile} {
+    font-size: 15px;
+  }
+}
+
+.recommend__title {
+  margin-bottom: 33px;
+
+  font-size: 30px;
+  color: #000;
+
+  &--white {
+    color: #fff;
+    margin-bottom: 30px;
+  }
+
+  @media #{$mobile} {
+    font-size: 20px;
+  }
+}
+
+.recommend__text {
+  font-size: 16px;
+  color: #777777;
+  font-weight: 300;
+
+  @media #{$mobile} {
+    font-size: 13px;
+  }
+}
+
+.recommend__photo {
+  margin: 0;
+  padding: 0;
+}
+
+.recommend__img {
+  width: 320px;
+
+  @media #{$mobile} {
+    width: 200px;
+  }
+}
+
+
+.recommend-right {
+  margin: 0;
+  padding: 0;
+}
+
+.recommend-right__item {
+  display: flex;
+  align-items: center;
+
+  max-width: 783px;
+  height: 419px;
+
+  background: #232323;
+  overflow: hidden;
+
+  @media #{$notebook} {
+    max-width: 90%;
+    height: 419px;
+    margin: 5px auto;
+  }
+
+  @media #{$mobile} {
+    height: auto;
+    margin: 5px auto;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  &--white {
+    height: 318px;
+    margin-top: 10px;
+
+    background: #fff;
+
+    @media #{$notebook} {
+      max-width: 90%;
+      height: 419px;
+    }
+
+    @media #{$mobile} {
+      flex-direction: column;
+      height: auto;
+    }
+  }
+}
+
+.recommend-right__content {
+  padding: 30px;
+}

@@ -1,0 +1,65 @@
+.btn {
+  display: inline-block;
+  height: 35px;
+
+  padding: 7px 14px;
+
+  background: #ffaf2d;
+  border-radius: 0 10px 10px 0;
+
+  cursor: pointer;
+
+  text-decoration: none;
+  font-size: 16px;
+
+  &--yellow {
+    width: 133px;
+    height: 50px;
+
+    padding: 0 20px;
+
+    text-align: center;
+    font-size: 18px;
+    color: #f3f1f1;
+
+    border-radius: 30px;
+    border: none;
+    
+    @media #{$mobile} {
+      width: 100px;
+      height: 25px;
+      padding: 0 10px;
+
+      font-size: 10px;
+    }
+  }
+
+  &--long {
+    padding: 0 35px;
+    height: 40px;
+
+    border-radius: 30px;
+    border: 2px solid #000;
+
+    background: transparent;
+    color: #282828;
+
+    @media #{$notebook} {
+      display: none;
+    }
+  }
+
+  &--circle {
+    width: 47px;
+    height: 47px;
+    padding: 0;
+
+    font-size: 24px;
+    color: #fff;
+
+    border-radius: 100%;
+    border: none;
+    
+    background: #000;
+  }
+}

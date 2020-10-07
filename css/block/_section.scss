@@ -1,0 +1,7 @@
+.section {
+  margin: 170px 0;
+
+  @media #{$notebook} {
+    margin: 100px 0;
+  }
+}

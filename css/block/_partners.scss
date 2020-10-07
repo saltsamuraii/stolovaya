@@ -1,0 +1,41 @@
+.partners {
+  margin-top: 20px;
+}
+
+.partners__logo {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+
+  background-color: #fff;
+
+  @media #{$notebook} {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+}
+
+.partners__item {
+  margin: 5px 0;
+  padding: 10px 50px;
+
+  border-right: 1px solid #efeeee;
+
+  &:last-child {
+    border-right: none;
+  }
+
+  @media #{$notebook} {
+    border: none;
+  }
+}
+
+.partners__text {
+  color: #000;
+  font-size: 18px;
+
+  text-decoration: none;
+  cursor: pointer;
+}
